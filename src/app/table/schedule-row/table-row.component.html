@@ -1,0 +1,2 @@
+<th width="1" scope="row">{{index + 1}}</th>
+<td *ngFor="let column of columns" [width]="column.width">{{getDataFor(column.name)}}</td>
