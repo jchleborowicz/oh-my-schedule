@@ -1,0 +1,24 @@
+{
+  "columns": [
+    {
+      "name": "release",
+      "title": "Wydanie",
+      "width": 600
+    },
+    {
+      "name": "responsible",
+      "title": "Odpowiedzialny",
+      "width": 100
+    }
+  ],
+  "rows": [
+    {
+      "release": "wrzesień",
+      "responsible": "Ksut"
+    },
+    {
+      "release": "listtopad",
+      "responsible": "Nie wiadomo"
+    }
+  ]
+}

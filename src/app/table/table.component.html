@@ -1,0 +1,19 @@
+<table class="table table-sm table-bordered table-striped table-hover">
+  <thead>
+  <tr class="bg-primary">
+    <th scope="col">#</th>
+    <th *ngFor="let column of scheduleData.columns"
+        scope="col">
+      {{column.title}}
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let rowData of scheduleData.rows; let i = index"
+      app-table-row
+      [columns]="scheduleData.columns"
+      [rowData]="rowData"
+      [index]="i">
+  </tr>
+  </tbody>
+</table>
